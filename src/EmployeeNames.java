@@ -10,5 +10,6 @@ public class EmployeeNames {
         James.raiseSalary(23);
         System.out.println(James.getSalary());
         Margaret.raiseSalary(45);
+        System.out.println(Margaret.getSalary());
     }
 }
