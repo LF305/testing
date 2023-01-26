@@ -24,4 +24,3 @@ public class Circle {
         this.colour = colour;
     }
 }
-//getRadius(), getColour(), getDiameter(), getCircumferenc(), getArea(), and setColour().
