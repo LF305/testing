@@ -5,5 +5,6 @@ public class CatActions {
         Lyla.bite();
         Milo.purr();
         Lyla.meow();
+        Milo.meow();
     }
 }
