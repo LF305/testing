@@ -20,6 +20,7 @@ public class Shape {
             default:
             System.out.println("Invalid input");
         }
+        scanner.close();
     }
     public static void diameter(double radius){
         System.out.println(radius*2);

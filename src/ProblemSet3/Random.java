@@ -23,5 +23,6 @@ public class Random{
             System.out.println("You failed to guess the number. It was");
             System.out.println(number);
         }
+        scanner.close();
     }
 }

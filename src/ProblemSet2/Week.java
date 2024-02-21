@@ -16,5 +16,6 @@ public class Week {
         shouldContinue = false;
     }
     }
+    scanner.close();
     }   
 }

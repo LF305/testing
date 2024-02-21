@@ -15,13 +15,13 @@ public class Prime {
                 }
                 number++;
             }
-            if (isPrime == true) {
+            if (isPrime == true & i!=2) {
                 System.out.println(i);
             } 
             i++;
             isPrime=true;
             number=2;
         }
-
+        scanner.close();
     }
 }

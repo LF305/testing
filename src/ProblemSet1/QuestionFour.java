@@ -40,5 +40,6 @@ public class QuestionFour {
    } else {
      System.out.println("You just lost a 5 question quiz.");
    }
+   scanner.close();
   }
 }

@@ -9,21 +9,22 @@ public class Math {
             int x = scanner.nextInt();
             int y = scanner.nextInt();
             switch(math){
-                case "multiply":
+                case "*":
                 multiply(x, y);
                 break;
-                case "add":
+                case "+":
                 add(x, y);
                 break;
-                case "subtract":
+                case "-":
                 subtract(x, y);
                 break;
-                case "divide":
+                case "/":
                 divide(x, y);
                 break;
                 default:
                 System.out.println("Invalid input");
             }
+            scanner.close();
         }
         public static void add(double x, double y){
             System.out.println(x+y);

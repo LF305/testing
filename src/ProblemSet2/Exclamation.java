@@ -1,5 +1,4 @@
 package ProblemSet2;
-import java.util.Scanner;
 public class Exclamation {
     public static void main(String[] args) throws Exception {
         String [] arr  = {"!", "!!", "!!!", "!!!!", "!!!!!", "!!!!!!", "!!!!!!!", "!!!!!!!!", "!!!!!!!!!", "!!!!!!!!!!"};

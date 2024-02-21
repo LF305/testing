@@ -7,5 +7,6 @@ public class App {
    int celsius; 
    celsius = scanner.nextInt();
    System.out.println(celsius*1.8+32);
+   scanner.close();
     }
 }

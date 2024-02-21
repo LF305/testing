@@ -16,5 +16,6 @@ public class QuestionTwo {
    } else {
      System.out.println("This number is divisible by 7");
    }
+   scanner.close();
     }
 }

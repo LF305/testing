@@ -28,13 +28,14 @@ public class Time {
                     default:
                     System.out.println("invalid inputs");
                     }
-                System.out.println(end);
-                System.out.println(day);
             }
+             System.out.println(end);
+             System.out.println(day);
             }else{
             System.out.println(end);
             System.out.println(day);
             }
         }
+        scanner.close();
      }    
 }

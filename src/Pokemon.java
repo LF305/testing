@@ -16,7 +16,8 @@ public class Pokemon {
 
         Pokedex umbreon = new Pokedex("Umbreon", 95, 65, 110, 60, 130, wish.getMoves(), foulPlay.getMoves(), yawn.getMoves(), protect.getMoves(), 64);
         Pokedex ogerpon = new Pokedex("Ponyo", 80, 120, 60, 96, 84, ivyCudgel.getMoves(), knockOff.getMoves(), playRough.getMoves(), uTurn.getMoves(), 70);
-        Pokedex jigglyPuff = new Pokedex("JigglyPuff", 115, 45, 45, 25, 20, blizzard.getMoves(), calmMind.getMoves(), bodySlam.getMoves(), dazzlingGleam.getMoves(), 0);
-
+        Pokedex jigglyPuff = new Pokedex("JigglyPuff", 115, 45, 45, 25, 20, blizzard.getMoves(), calmMind.getMoves(), bodySlam.getMoves(), dazzlingGleam.getMoves(), 12);
+        Pokedex eevee = new Pokedex("Eevee", 0, 0, 0, 0, 0, null, null, null, null, 0);
+        Pokedex snorlax = new Pokedex("Snorlax", 0, 0, 0, 0, 0, null, null, null, null, 0);
     }
 }
